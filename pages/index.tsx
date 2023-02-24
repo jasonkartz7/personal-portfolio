@@ -6,6 +6,7 @@ import Hero from "@/components/Hero";
 import { NextPage } from "next";
 import About from "@/components/About";
 import WorkExperience from "@/components/WorkExperience";
+import Skills from "@/components/Skills";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -38,6 +39,9 @@ const Home: NextPage = () => {
       </section>
 
       {/*Skills*/}
+      <section id="skill" className="snap-center">
+        <Skills />
+      </section>
 
       {/*Project*/}
 
