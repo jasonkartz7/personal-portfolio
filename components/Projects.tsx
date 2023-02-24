@@ -31,7 +31,7 @@ function Projects({}: Props) {
       >
         {projects.map((project, i) => (
           <div
-            className=" w-screen flex-shrink-0 snap-center flex flex-col space-y-3 items-center 
+            className=" w-screen flex-shrink-0 snap-center flex flex-col space-y-0 items-center 
                         justify-center p-20 md:p-44 h-screen"
           >
             <motion.img
